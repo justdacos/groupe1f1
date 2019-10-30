@@ -10,50 +10,77 @@
 </head>
 <body>
     
-    <header>
-        <!-- Placez ici le contenu de l'en-tête de votre page -->
-        <div id="titre_principal">
-            <div id="logo">   
-                <h1>monsite.com</h1>    
+    <div id="container">
+        <header>
+          <div class="logo-wrapper">
+            <div class="logo">booko.com</div>
+            <div class="slogan">LE SITE DE COVOITURAGE</div>
+          </div>
+          <div class="search-bar-wrapper">
+            <div class="form-wrapper">
+              <div class="form-input"><input type="text" name="search" placeholder="Lieu de depart" /></div>
+              <div class="form-input"><input type="text" name="search" placeholder="Destination"/></div>
+              <div class="form-submit">
+                <button class="submit">Rechercher</button>
+              </div>
             </div>
-            <h2>LE SLOGAN DU SITE</h2>
-        </div>
-
-        <div>
-            <form >
-                <input type="text" name="search" placeholder="Recherche">
-                <input type="button" class="button" value="Rechercher"> 
-            </form>   
-        </div>
-
-        <h2>Tel: 775439261</h2>
-        
-    </header>
-
-   
-    
-
-    <main>
-        
-        
-
-                <div class="flex-container">
-                        <div style="flex-grow: 6"> <img src="header-image-1.png" alt="" /></div>
-                        <div style="flex-grow: 8"><h1>NOUS SOMMES LES <br> EXPERTS</h1></div>
+          </div>
+        </header>
+        <nav>
+          <ul class="nav-bar">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Ajouter une annonce</a></li>
+            <li><a href="#">Voir les annonces</a></li>
+            <li><a href="#">Partenaires</a></li>
+            <li><a href="#">Inscription</a></li>
+            <li><a href="#">Connexion</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <main>
+          <section id="bilboard">
+            <div class="bilboard-wrapper">
+              <div class="bilboard-image"><img src="images/a1.jpg" alt="" /></div>
+             
+            </div>
+          </section>
+          <section class="last-posts">
+            <div class="title">Last Posts</div>
+            <div class="last-posts-wrapper">
+              <div class="last-post">
+                <div class="last-post-image"><img src="images/a2.jpg" alt="" /></div>
+                <div class="short-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                  quasi eligendi fugiat officia non.
                 </div>
-               
-                <div class="flex-con-last">
-                    <div style="flex-grow: 3;"><img src="Header-Large-Sunshine-Seeker.jpg" alt=""></div>
-                    <div style="flex-grow: 3;"><img src="header-image-1.png" alt=""></div>
-                    <div style="flex-grow: 3;"><img src="images.jpeg" alt=""></div>
-
-
-
+                <div class="read-more">read more</div>
+              </div>
+              <div class="last-post">
+                <div class="last-post-image"><img src="images/a3.jpg" alt="" /></div>
+                <div class="short-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                  quasi eligendi fugiat officia non.
                 </div>
-            
-        
-    </main>
-
+                <div class="read-more">read more</div>
+              </div>
+              <div class="last-post">
+                <div class="last-post-image"><img src="images/a4.jpg" alt="" /></div>
+                <div class="short-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                  quasi eligendi fugiat officia non.
+                </div>
+                <div class="read-more">read more</div>
+              </div>
+            </div>
+          </section>
+          
+         
+        </main>
+        <footer>
+          <div>&copy; All rights reserved</div>
+          <div>by les experts galimatech</div>
+        </footer>
+      </div>
 
     
     

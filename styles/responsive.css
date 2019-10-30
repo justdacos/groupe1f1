@@ -1,0 +1,32 @@
+/*
+ * --------------------------------------------------
+ * Style CSS design du site http://elmadeal.com
+ * amélioration de l'affichage responsive du site
+ * @author Papa Amadou Abdoulaye Bâ
+ * amadouba@elmadeal.com - paab26@live.fr
+ * @version : 3.0;
+ * started : 15-05-2017 19:00;
+ * --------------------------------------------------
+ */
+
+/*
+* ====== BOTTSTRAP MEDIA QUERY RANGES ======
+*/
+
+@media all and (min-width: 1200px) {
+    /* col-lg  */
+
+}
+
+@media all and (min-width: 768px) and (max-width: 979px) {
+    /* col-md */
+}
+
+@media all and (max-width: 767px) {
+    /* col-sm */
+    /* HEADER  */
+}
+
+@media all and (max-width: 521px) {
+    /* col-xs*/
+}
